@@ -16,40 +16,6 @@
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
-		"RankImage"
-		{
-			"ControlName"	"CTFLocalPlayerBadgePanel"
-			"fieldName"		"RankImage"
-			"xpos"			"4"
-			"ypos"			"-8"
-			"zpos"			"110"
-			"wide"			"o1"
-			"tall"			"60"
-			"visible"		"0"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"matchgroup"	"MatchGroup_Casual_12v12"
-		}
-
-		"RankPanel"
-		{
-			"ControlName"	"CPvPRankPanel"
-			"fieldName"		"RankPanel"
-			"xpos"			"0"
-			"ypos"			"-65"
-			"zpos"			"100"
-			"wide"			"330"
-			"tall"			"102"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"matchgroup"	"MatchGroup_Casual_12v12"
-			"show_model"	"0"
-			"show_name"		"0"
-			"show_stats"	"1"
-		}
-
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
