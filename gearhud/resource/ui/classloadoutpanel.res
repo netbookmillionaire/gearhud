@@ -596,20 +596,6 @@
 		"border_armed"				""
 		"border_depressed"			""
 	}
-	"skaianetlogo"
-	{
-		"ControlName"    "ImagePanel"
-		"fieldName"      "skaianetlogo"
-		"xpos"           "c-128"
-		"ypos"           "c-160"
-		"zpos"           "-2"
-		"wide"           "256"
-		"tall"           "256"
-		"visible"        "1"
-		"enabled"        "1"
-		"image"          "replay/thumbnails/alchemiter"
-		"scaleImage"     "1"
-	}
 	"TauntsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
