@@ -1,15 +1,7 @@
 <div align="center">
 
-# ahud-hammeredit
-### By Falkinghammer
+# gearhud
+aka hammeredit^2
+### By kodoque
 
-**[SCREENSHOTS](../screenshots/showcase.md)** -
-**[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
-**[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)**
-
-![Main Menu](../screenshots/01_Main_Menu.jpg)
-![Health Buff](../screenshots/02_Health_Buff.jpg)
-![Health & Ammo Low](../screenshots/03_Health_Ammo_Low.jpg)
-![Ubercharge](../screenshots/04_Ubercharge.jpg)
-![Scoreboard](../screenshots/05_Scoreboard.jpg)
-![Win & Damage](../screenshots/06_Win.jpg)
+big ups to falkinghammer for making this bomb ass hud in the first place, this fixes various things like the broken match hud, weird sticky charge positioning, and adds some of my own flair (duster flavored)
