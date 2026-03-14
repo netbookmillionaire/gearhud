@@ -699,7 +699,7 @@
   "enabled" "1"
   "wide" "640"
   "tall" "480"
-  "alpha" "0"
+  "alpha" "255"
 	}
 	
 	HudScopeCharge

@@ -28,7 +28,7 @@ Scheme
 		"greyFG"				"0 0 0 230"		//used for text
 		
 		"Damage Numbers"			"255 255 255 240"
-		"Healing Numbers"			"0 255 255 240"
+		"Healing Numbers"			"50 255 50 255"
 		
 		"HudBGStatus"	"0 0 0 50"						//grey boxes for health/ammo	(light grey)
 		

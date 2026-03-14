@@ -6,7 +6,7 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"50 255 50 255" //Heal
+		"PositiveColor"			"Healing Numbers" //Heal
 		"NegativeColor"			"20 255 150 255" //Damage
 		"delta_lifetime"		"3"
 		"delta_item_font"		"aRegulardata"
