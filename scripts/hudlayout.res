@@ -364,6 +364,7 @@
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-25"
 		"ypos"	"440"
+		"zpos"	"-10"
 		"wide"	"f0"
 		"tall"  "40"
 		"visible" "1"
@@ -699,7 +700,7 @@
   "enabled" "1"
   "wide" "640"
   "tall" "480"
-  "alpha" "255"
+  "alpha" "0"
 	}
 	
 	HudScopeCharge
@@ -1047,6 +1048,7 @@ HudDemomanCharge
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"
+		"zpos"					"1000"
 		"wide"					"320"
 		"tall"					"300"
 	}
@@ -1102,7 +1104,7 @@ HudDemomanCharge
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"zpos"					"2"
+		"zpos"					"1000"
 		"wide"					"250"
 		"tall"					"80"
 	}
@@ -1114,6 +1116,7 @@ HudDemomanCharge
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
+		"zpos"					"1000"
 		"wide"					"180"
 		"tall"					"65"
 	}

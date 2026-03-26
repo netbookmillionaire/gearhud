@@ -70,7 +70,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"

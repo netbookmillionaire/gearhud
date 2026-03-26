@@ -28,6 +28,20 @@
 		"teambg_3"		"../hud/misc_ammo_area_blue"
 	}
 
+	"MetalCountBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MetalCountBackground"
+		"xpos"			"34"
+		"ypos"			"48"
+		"zpos"			"1"
+		"wide"			"33"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
+
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"

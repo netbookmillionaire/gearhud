@@ -17,7 +17,7 @@ Scheme
 		"CrosshairDamage"		"255 0 0 150"		// For no damage flash, set to the CrosshairDamage to the same value.
 
 		"HP"					"255 255 255 200"
-		"HP Buff"				"0 255 255 230"
+		"HP Buff"				"0 254 129 230"
 		"HP Low"				"200 45 45 230"
 		
 		"hamPurple" 		"128 0 128 220"			//dark purple

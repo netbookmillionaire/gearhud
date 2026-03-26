@@ -6,7 +6,7 @@ HudItemEffectMeter
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"c125"
+		"ypos"			"c105"
 		"wide"			"150"
 		"tall"			"100"
 		"MeterFG"		"TanLight"
