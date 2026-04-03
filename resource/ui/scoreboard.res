@@ -15,7 +15,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"medal_width"		"15"
+		"medal_width"		"28"
+		"medal_column_width"	"18"
 		"avatar_width"		"54"
 		"spacer"			"5"
 		"name_width"		"85"
@@ -588,7 +589,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ahudWhite"
+		"fgcolor"		"255 255 255 255"
 
 		"pin_to_sibling"	"Spectators"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
@@ -656,7 +657,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ahudWhite"
+		"fgcolor"		"255 255 255 255"
 
 		"pin_to_sibling"	"LocalPlayerStatsPanel"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
@@ -664,7 +665,7 @@
 
 		if_mvm
 		{
-			"fgcolor"		"ahudBlack"
+			"fgcolor"		"255 255 255 255"
 		}
 	}
 	"HorizontalLine"
@@ -945,7 +946,9 @@
 		if_mvm
 		{
 			"visible"		"1"
-			"ypos"			"-121"
+			"enabled"		"1"
+			"ypos"			"-48"
+			"zpos"			"20"
 		}
 
 		"StatsPanelBG"
@@ -963,8 +966,9 @@
 
 			if_mvm
 			{
-				"visible"		"1"
-				"bgcolor_override"	"ahudWhite"
+				"visible"		"0"
+				"enabled"		"0"
+				"bgcolor_override"	"HudBlack"
 			}
 		}
 
@@ -984,12 +988,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"DeathsLabel"
@@ -1013,7 +1017,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"west"
 			"xpos"			"126"
@@ -1025,19 +1029,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"DestructionLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"west"
 			"xpos"			"126"
@@ -1049,12 +1053,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Kills"
@@ -1073,12 +1077,13 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Kills2"
@@ -1097,12 +1102,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Deaths"
@@ -1121,12 +1127,13 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Deaths2"
@@ -1145,12 +1152,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"GameType"
@@ -1174,14 +1182,14 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Assists"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%assists%"
 			"textAlignment"		"east"
 			"xpos"			"181"
@@ -1193,19 +1201,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Assists2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%assists%"
 			"textAlignment"		"east"
 			"xpos"			"181"
@@ -1217,19 +1226,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Destruction"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%destruction%"
 			"textAlignment"		"east"
 			"xpos"			"181"
@@ -1241,19 +1251,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Destruction2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%destruction%"
 			"textAlignment"		"east"
 			"xpos"			"181"
@@ -1265,19 +1276,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"CapturesLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"west"
 			"xpos"			"126"
@@ -1289,19 +1301,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"DefensesLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"west"
 			"xpos"			"126"
@@ -1313,19 +1325,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"DominationLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"west"
 			"xpos"			"226"
@@ -1337,19 +1349,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"RevengeLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"west"
 			"xpos"			"226"
@@ -1361,19 +1373,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Captures"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%captures%"
 			"textAlignment"		"east"
 			"xpos"			"181"
@@ -1385,19 +1397,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Captures2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%captures%"
 			"textAlignment"		"east"
 			"xpos"			"181"
@@ -1409,19 +1422,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Defenses"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%defenses%"
 			"textAlignment"		"east"
 			"xpos"			"181"
@@ -1433,19 +1447,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Defenses2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%defenses%"
 			"textAlignment"		"east"
 			"xpos"			"181"
@@ -1457,19 +1472,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Domination"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%dominations%"
 			"textAlignment"		"east"
 			"xpos"			"281"
@@ -1481,19 +1497,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Domination2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%dominations%"
 			"textAlignment"		"east"
 			"xpos"			"281"
@@ -1505,19 +1522,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Revenge"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"east"
 			"xpos"			"281"
@@ -1529,19 +1547,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Revenge2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"east"
 			"xpos"			"281"
@@ -1553,19 +1572,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"HealingLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"west"
 			"xpos"			"226"
@@ -1577,19 +1597,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"InvulnLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"west"
 			"xpos"			"226"
@@ -1601,19 +1621,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"TeleportsLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"west"
 			"xpos"			"326"
@@ -1625,19 +1645,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"HeadshotsLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"west"
 			"xpos"			"326"
@@ -1649,19 +1669,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Healing"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%healing%"
 			"textAlignment"		"east"
 			"xpos"			"281"
@@ -1673,19 +1693,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Healing2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%healing%"
 			"textAlignment"		"east"
 			"xpos"			"281"
@@ -1697,19 +1718,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Invuln"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%invulns%"
 			"textAlignment"		"east"
 			"xpos"			"281"
@@ -1721,19 +1743,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Invuln2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%invulns%"
 			"textAlignment"		"east"
 			"xpos"			"281"
@@ -1745,19 +1768,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Teleports"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%teleports%"
 			"textAlignment"		"east"
 			"xpos"			"381"
@@ -1769,19 +1793,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Teleports2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%teleports%"
 			"textAlignment"		"east"
 			"xpos"			"381"
@@ -1793,19 +1818,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Headshots"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%headshots%"
 			"textAlignment"		"east"
 			"xpos"			"381"
@@ -1817,19 +1843,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Headshots2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%headshots%"
 			"textAlignment"		"east"
 			"xpos"			"381"
@@ -1841,19 +1868,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"BackstabsLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"west"
 			"xpos"			"326"
@@ -1865,19 +1893,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Backstabs"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"east"
 			"xpos"			"381"
@@ -1889,19 +1917,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Backstabs2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"east"
 			"xpos"			"381"
@@ -1913,19 +1942,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"BonusLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"west"
 			"xpos"			"326"
@@ -1937,19 +1967,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Bonus"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%bonus%"
 			"textAlignment"		"east"
 			"xpos"			"381"
@@ -1961,19 +1991,20 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Bonus2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%bonus%"
 			"textAlignment"		"east"
 			"xpos"			"381"
@@ -1985,19 +2016,20 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
+			"fgcolor"		"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"SupportLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"west"
 			"xpos"			"426"
@@ -2013,14 +2045,14 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Support"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%support%"
 			"textAlignment"	"east"
 			"xpos"			"481"
@@ -2035,15 +2067,16 @@
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Support2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%support%"
 			"textAlignment"	"east"
 			"xpos"			"481"
@@ -2058,15 +2091,16 @@
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"DamageLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"west"
 			"xpos"			"426"
@@ -2082,14 +2116,14 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Damage"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%damage%"
 			"textAlignment"	"east"
 			"xpos"			"481"
@@ -2104,15 +2138,16 @@
 
 			if_mvm
 			{
-				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"1"
+				"visible"		"1"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 		"Damage2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage2"
-			"font"			"aRegular10"
+			"font"			"aBold10"
 			"labelText"		"%damage%"
 			"textAlignment"	"east"
 			"xpos"			"481"
@@ -2127,8 +2162,9 @@
 
 			if_mvm
 			{
-				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"enabled"		"0"
+				"visible"		"0"
+				"fgcolor"		"255 255 255 255"
 			}
 		}
 	}

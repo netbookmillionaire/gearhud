@@ -1,12 +1,12 @@
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
-HudItemEffectMeter
+	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-75"
-		"ypos"			"c105"
+		"xpos"			"c-245"
+		"ypos"			"c90"
 		"wide"			"150"
 		"tall"			"100"
 		"MeterFG"		"TanLight"

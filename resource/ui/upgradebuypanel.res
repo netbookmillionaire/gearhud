@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"97 94 85 255"
+		"bgcolor_override"	"36 40 45 245"
 	}
 	
 	"IconBorder"
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"ahudWhite"
+		"bgcolor_override"	"80 88 96 255"
 	}
 	
 	"Icon"
@@ -112,6 +112,7 @@
 		"labelText"		""
 		"textAlignment"	"center"
 		"font"			"aRegular12"
+		"fgcolor"		"240 244 245 255"
 	}
 	
 	"ShortDescriptionLabel"
@@ -133,6 +134,7 @@
 		"labelText"		""
 		"textAlignment"	"center-west"
 		"font"			"HudFontSmallest"
+		"fgcolor"		"241 242 240 255"
 	}
 	
 	"BuySellBG"
@@ -150,7 +152,7 @@
 		"enabled"		"0"
 		
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"117 114 103 255"
+		"bgcolor_override"	"48 53 58 255"
 	}
 	
 	"IncrementButton"

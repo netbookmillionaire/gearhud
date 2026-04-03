@@ -33,6 +33,22 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"		
 	}
+	"AmmoMiniCritOverlay"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoMiniCritOverlay"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"0"
+		"image"			"../hud/health_over_bg_white"
+		"drawcolor"		"255 255 255 255"
+		"scaleImage"	"1"
+	}
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"

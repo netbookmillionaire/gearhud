@@ -53,6 +53,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
+		"drawcolor"		"0 254 129 255"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValueFreezePanel"

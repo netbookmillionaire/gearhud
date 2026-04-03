@@ -304,13 +304,13 @@
 
 			"CTFLogoPanel"
 			{
-				"ControlName"	"CTFLogoPanel"
+				"ControlName"	"ImagePanel"
 				"fieldname"		"CTFLogoPanel"
-				"xpos"			"0"
-				"ypos"			"1"
+				"xpos"			"3"
+				"ypos"			"7"
 				"zpos"			"5"
-				"wide"			"o1"
-				"tall"			"f0"
+				"wide"			"24"
+				"tall"			"24"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
@@ -318,6 +318,8 @@
 				"velocity"		"100"
 
 				"fgcolor_override"	"TFOrange"
+				"image"          "replay/thumbnails/skaianet"
+				"scaleImage"     "1"
 			}
 
 			"QueueText"

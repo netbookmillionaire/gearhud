@@ -98,12 +98,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-76"
-		"ypos"			"c64"
+		"ypos"			"c60"
 		"wide"			"f0"
 		"tall"			"300"
 	}
 	
-	HudDemomanCharge
+HudDemomanCharge
 {
 	"fieldName"		"HudDemomanCharge"
 	"visible"		"1"
@@ -112,7 +112,7 @@
 	"ypos"			"c105" // The magic number that worked for you
 	"zpos"			"1"			
 	"wide"			"150"
-	"tall"			"100"
+	"tall"			"5"
 	"MeterFG"		"White"
 	"MeterBG"		"Gray"
 }
@@ -248,8 +248,8 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-200"
-		"ypos"		"c15"
+		"xpos"		"c-75"
+		"ypos"		"c80"
 		"wide"	 	"200"
 		"tall"	 	"50"
 		"priority"	"40"
@@ -700,7 +700,7 @@
   "enabled" "1"
   "wide" "640"
   "tall" "480"
-  "alpha" "0"
+  "alpha" "255"
 	}
 	
 	HudScopeCharge
@@ -1024,7 +1024,7 @@ HudDemomanCharge
 		"ypos"			"c30"  
 		"zpos"			"1"			
 		"wide"			"150"  
-		"tall"			"12"    
+		"tall"			"5"    
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -1482,7 +1482,7 @@ HudDemomanCharge
 		"xpos"		"c0"
 		"ypos"		"c0"
 		"wide"		"150"
-		"tall"		"50"
+		"tall"		"90"
 		"MeterFG"	"White"
 		"MeterBG"	"Gray"
 	}

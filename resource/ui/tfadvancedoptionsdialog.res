@@ -107,7 +107,6 @@
 		"tabPosition"		"0"
 		"bgcolor_override"	"0 0 0 0"
 	}
-	
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"

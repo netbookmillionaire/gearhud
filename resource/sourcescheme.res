@@ -29,6 +29,7 @@ Scheme
 		"ahudGrey"				"51 47 46 255"
 		"ahudDarkGrey"			"27 27 27 255"
 		"ahudDarkerGrey"		"22 22 22 255"
+		"ContextMenuBorderColor"	"55 55 55 255"
 		
 		"ahudBlack"				"17 17 17 255"
 		
@@ -522,7 +523,7 @@ Scheme
 		BaseBorder		SubtleBorder
 		ButtonBorder	RaisedBorder
 		ComboBoxBorder	DepressedBorder
-		MenuBorder		SubtleBorder
+		MenuBorder		ContextMenuBorder
 		BrowserBorder	DepressedBorder
 		PropertySheetBorder	RaisedBorder
 
@@ -603,6 +604,46 @@ Scheme
 				"1"
 				{
 					"color" "ahudDarkGrey"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ContextMenuBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "ContextMenuBorderColor"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "ContextMenuBorderColor"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "ContextMenuBorderColor"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "ContextMenuBorderColor"
 					"offset" "0 0"
 				}
 			}

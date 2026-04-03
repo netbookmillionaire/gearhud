@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"r63"
 		"zpos"			"1001"
-		"wide"			"280"
-		"tall"			"f70"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -30,17 +30,19 @@
 		"fgcolor_override"	"ahudWhite"
 		
 		"mouseinputenabled"	"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"playlist"
 	{
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
-		"xpos"			"8"
-		"ypos"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"255"
-		"tall"			"305"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -49,14 +51,31 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
-		"xpos"			"8"
-		"ypos"			"50"
-		"zpos"			"1000"
-		"wide"			"255"
-		"tall"			"298"
-		"visible"		"1"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"InnerShadowBorder"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+	}
+
+	"DashboardDimmer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DashboardDimmer"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -143,4 +162,5 @@
 			"defaultBgColor_override"	"GreenSolid"
 		}
 	}
+
 }

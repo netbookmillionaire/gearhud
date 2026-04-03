@@ -1,5 +1,14 @@
 "Resource/UI/MvMScoreboard.res"
 {		
+	"medal_width"			"24"
+	"medal_spacer_width"	"6"
+	"avatar_width"			"40"
+	"spacer_width"			"6"
+	"name_width"			"130"
+	"stat_width"			"50"
+	"class_width"			"30"
+	"ping_width"			"30"
+
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
@@ -22,7 +31,7 @@
 		"ypos"			"112"
 		"zpos"			"-1"
 		"wide"			"560"
-		"tall"			"187"
+		"tall"			"350"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -111,15 +120,51 @@
 		"xpos"			"c-270"
 		"ypos"			"116"
 		"wide"			"540"
-		"tall"			"110"
+		"tall"			"140"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"16"
+		"linespacing"	"22"
 		"textcolor"		"ahudWhite"
-		"font"			"aRegular10"
+		"font"			"aRegular12"
+	}
+
+	"CurrencyDivider"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CurrencyDivider"
+		"xpos"			"c-270"
+		"ypos"			"258"
+		"zpos"			"1"
+		"wide"			"540"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"ahudWhite"
+		"PaintBackgroundType"	"0"
+		"textinsety" 	"99"
+	}
+
+	"LocalPlayerStatsPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"LocalPlayerStatsPanel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"3"
+		"wide"			"1"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"paintbackground"	"0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 0"
 	}
 	
 	"CreditStatsContainer"
@@ -127,10 +172,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
 		"xpos"			"c-250"
-		"ypos"			"199"
+		"ypos"			"255"
 		"wide"			"515"
-		"tall"			"205"
+		"tall"			"110"
 		"visible"		"1"
+		"paintbackground"	"0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 0"
 		
 		"CreditStatsBackground"
 		{
@@ -228,5 +276,23 @@
 			"tall"			"18"
 			"fgcolor"		"ahudWhite"
 		}
+	}
+
+	"StatsDivider"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"StatsDivider"
+		"xpos"			"c-270"
+		"ypos"			"371"
+		"zpos"			"1"
+		"wide"			"540"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"ahudRed"
+		"PaintBackgroundType"	"0"
+		"textinsety"	"99"
 	}
 }

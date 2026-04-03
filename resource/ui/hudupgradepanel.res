@@ -118,7 +118,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HudBlack"
+			"fillcolor"		"18 20 24 235"
 		}	
 		"BetweenBG"
 		{
@@ -133,7 +133,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"ahudWhite"
+			"fillcolor"		"24 27 31 245"
 		}
 	
 		"InnerPanelRim"
@@ -151,7 +151,7 @@
 			"enabled"		"0"
 			
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"ahudWhite"
+			"bgcolor_override"	"222 138 78 255"
 		}
 		"TopBorder"
 		{
@@ -345,7 +345,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
+			"bgcolor_override"	"214 116 60 255"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -363,7 +363,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"51 56 61 240"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -381,7 +381,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"51 56 61 240"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -399,7 +399,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"51 56 61 240"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -417,7 +417,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"51 56 61 240"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -435,7 +435,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"51 56 61 240"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -453,7 +453,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"51 56 61 240"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -596,7 +596,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			
-			"bgcolor_override"	"97 94 84 255"
+			"bgcolor_override"	"33 36 40 255"
 		}
 		
 		"UpgradeItemsHeaderBG"
@@ -613,7 +613,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			
-			"bgcolor_override"	"72 68 63 255"
+			"bgcolor_override"	"59 64 70 255"
 		}
 		
 		"UpgradeItemsLabel"
@@ -686,7 +686,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudBlack"
+			"fgcolor"		"230 232 235 255"
 		}
 		
 		"CancelButton"
@@ -712,6 +712,16 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultFgColor_override"	"244 244 240 255"
+			"defaultBgColor_override"	"59 64 70 230"
+			"armedFgColor_override"		"18 20 24 255"
+			"armedBgColor_override"		"222 138 78 255"
+			"depressedFgColor_override"	"18 20 24 255"
+			"depressedBgColor_override"	"190 108 58 255"
+			"selectedFgColor_override"	"18 20 24 255"
+			"selectedBgColor_override"	"222 138 78 255"
+			"disabledFgColor_override"	"138 144 151 255"
+			"disabledBgColor_override"	"44 48 53 220"
 		}
 		
 		"CloseButton"
@@ -737,6 +747,16 @@
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultFgColor_override"	"244 244 240 255"
+			"defaultBgColor_override"	"59 64 70 230"
+			"armedFgColor_override"		"18 20 24 255"
+			"armedBgColor_override"		"222 138 78 255"
+			"depressedFgColor_override"	"18 20 24 255"
+			"depressedBgColor_override"	"190 108 58 255"
+			"selectedFgColor_override"	"18 20 24 255"
+			"selectedBgColor_override"	"222 138 78 255"
+			"disabledFgColor_override"	"138 144 151 255"
+			"disabledBgColor_override"	"44 48 53 220"
 		}
 
 		"RespecButton"
@@ -762,6 +782,16 @@
 			"Command"		"respec"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultFgColor_override"	"244 244 240 255"
+			"defaultBgColor_override"	"59 64 70 230"
+			"armedFgColor_override"		"18 20 24 255"
+			"armedBgColor_override"		"222 138 78 255"
+			"depressedFgColor_override"	"18 20 24 255"
+			"depressedBgColor_override"	"190 108 58 255"
+			"selectedFgColor_override"	"18 20 24 255"
+			"selectedBgColor_override"	"222 138 78 255"
+			"disabledFgColor_override"	"138 144 151 255"
+			"disabledBgColor_override"	"44 48 53 220"
 		}
 	}	
 	
@@ -815,7 +845,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"ahudWhite"
+			"fillcolor"		"24 27 31 240"
 		}
 		
 		"TipText"
@@ -835,7 +865,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"ahudBlack"
+			"fgcolor"		"232 234 236 255"
 		}
 		
 		"NextTipButton"
@@ -857,6 +887,12 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"nexttip"
+			"defaultFgColor_override"	"232 234 236 255"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedFgColor_override"		"222 138 78 255"
+			"armedBgColor_override"		"0 0 0 0"
+			"depressedFgColor_override"	"190 108 58 255"
+			"depressedBgColor_override"	"0 0 0 0"
 		}
 	}	
 }

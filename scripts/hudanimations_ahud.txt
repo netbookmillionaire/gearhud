@@ -18,7 +18,7 @@ event HudHealthBonusPulse
 	Animate	HealthBG4			BgColor		"HP Buff"		Accel 0.0 0.0
     Animate	HealthBG4			Alpha		"255"			Accel 0.2 0.15
 	Animate	HealthBG4			Alpha		"0"				Accel 0.1 0.1
-	Animate	TargetHealthBG		BgColor		"HP Buff"		Accel 0.0 0.0
+	Animate	TargetHealthBG		BgColor		"0 254 129 230"		Accel 0.0 0.0
     Animate	TargetHealthBG		Alpha		"255"			Accel 0.0 0.2
 	Animate	TargetHealthBG		Alpha		"0"				Accel 0.2 0.4
 	Animate	SpecHealthBG		BgColor		"HP Buff"		Accel 0.0 0.0
@@ -59,8 +59,41 @@ event HudHealthBonusPulseStop
 	Animate	SpecHealthBG			BgColor		"Blank"	       Accel 0.0 0.0
     Animate	SpecHealthBG			Alpha		"255"		   Accel 0.0 0.0
 	Animate	FreezeHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
-    Animate	FreezeHealthBG		Alpha		"255"		   Accel 0.0 0.0
+	Animate	FreezeHealthBG		Alpha		"255"		   Accel 0.0 0.0
 	Animate	HealthBoxBG 			BgColor	"Blank"	    Accel 0.0 0.0	
+}
+
+event HudAmmoMiniCritPulse
+{
+	Animate	AmmoMiniCritOverlay	Alpha	"200"		Accel 0.2 0.15
+	Animate	AmmoMiniCritOverlay	Alpha	"0"			Accel 0.1 0.1
+
+	RunEvent HudAmmoMiniCritPulseLoop 0.4
+}
+
+event HudAmmoMiniCritPulseLoop
+{
+	RunEvent HudAmmoMiniCritPulse 0.0
+}
+
+event HudAmmoMiniCritPulseStop
+{
+	StopEvent HudAmmoMiniCritPulse 0.0
+	StopEvent HudAmmoMiniCritPulseLoop 0.0
+
+	Animate	AmmoMiniCritOverlay	Alpha	"0"			Linear 0.0 0.0
+}
+
+event HideCriticalPanel
+{
+	Animate	CriticalPanel		Alpha	"0"			Linear 0.0 0.0
+	Animate	CriticalPanelLabel	Alpha	"0"			Linear 0.0 0.0
+}
+
+event ShowCriticalPanel
+{
+	Animate	CriticalPanel		Alpha	"255"		Linear 0.0 0.0
+	Animate	CriticalPanelLabel	Alpha	"255"		Linear 0.0 0.0
 }
 
 //Health Dying Pulse

@@ -21,6 +21,7 @@ Scheme
 	    "QuickListBGSelected"		"131 121 104 150"
 	    "Blank"						"0 0 0 0"
 	    "White"						"255 255 255 255"
+		"ContextMenuBorderColor"	"55 55 55 255"
 		"ControlBG"					"76 88 68 255"
 		"ControlDarkBG"				"90 106 80 255"
 		"WindowBG"					"62 70 55 255"
@@ -194,6 +195,7 @@ Scheme
 
 		"Default"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"			"Verdana"
@@ -235,7 +237,7 @@ Scheme
 			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"20"
+				"tall"			"8"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
@@ -338,6 +340,7 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"			"Verdana"
@@ -377,10 +380,11 @@ Scheme
 			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"22"
-				"weight"		"700"
+				"tall"			"8"
+				"weight"		"300"
 				"yres"			"1200 10000"
 				"dropshadow"	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -441,7 +445,7 @@ Scheme
 		BaseBorder			DepressedBorder
 		ButtonBorder		RaisedBorder
 		ComboBoxBorder		DepressedBorder
-		MenuBorder			RaisedBorder
+		MenuBorder			ContextMenuBorder
 		BrowserBorder		DepressedBorder
 		PropertySheetBorder	RaisedBorder
 
@@ -486,6 +490,47 @@ Scheme
 				"1"
 				{
 					"color" 	"Border.Bright"
+					"offset" 	"0 0"
+				}
+			}
+		}
+
+		ContextMenuBorder
+		{
+			"inset"	"0 0 0 0"
+
+			Left
+			{
+				"1"
+				{
+					"color" 	"ContextMenuBorderColor"
+					"offset"	"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 	"ContextMenuBorderColor"
+					"offset"	"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"ContextMenuBorderColor"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"ContextMenuBorderColor"
 					"offset" 	"0 0"
 				}
 			}
